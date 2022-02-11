@@ -1,7 +1,7 @@
 # S3 Download Tuner
 
 ## What is this? 
-In this example, we use the open-source parameter tuning library Syne Tune to learn an optimal configuration of `boto3`'s `Download_file` method, for a given file and a given client EC2 instance type. Using this code, we were able to reduce the download time of various files (5GiB, 10GiB) up to ~40% vs boto3 default transfer configuration. Consider this repo as a one-off creative demo for Syne Tune. 
+In this example, we use the open-source parameter tuning library Syne Tune to learn a good configuration of `boto3`'s `Download_file` method, for a given file and a given client EC2 instance type. Using this code, we were able to reduce the download time of various files (5GiB, 10GiB) up to ~40% vs boto3 default transfer configuration. Consider this repo as a one-off creative demo for Syne Tune. 
 
 
 ## What is Syne Tune?
