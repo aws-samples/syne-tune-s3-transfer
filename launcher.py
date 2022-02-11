@@ -108,7 +108,7 @@ if __name__ == "__main__":
         
         search_options = {
         'num_init_random': 3,
-        'gp_resource_kernel': 'matern52'
+        'gp_resource_kernel': 'cross-validation'
         }
         
         scheduler = HyperbandScheduler(
